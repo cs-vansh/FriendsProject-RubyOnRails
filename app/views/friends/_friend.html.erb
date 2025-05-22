@@ -1,0 +1,25 @@
+<div id="<%= dom_id friend %>">
+  <td>
+    <%# <strong>First name:</strong> %>
+    <%= link_to friend.first_name + ' ' + friend.last_name, friend %>
+    <% friend.first_name %> <% friend.last_name %>
+  </td>
+
+  <td>
+    <%# <strong>Email:</strong> %>
+    <%= friend.email %>
+  </td>
+
+  <td>
+    <%# <strong>phone:</strong> %>
+    <%= friend.phone %>
+  </td>
+
+  <td>
+    <%# <strong>Twitter:</strong> %>
+    <%= friend.twitter %>
+  </td>
+
+
+
+</div>
